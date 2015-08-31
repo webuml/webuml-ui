@@ -83,14 +83,15 @@ See https://www.jetbrains.com/idea/webhelp/running-mocha-unit-tests.html for det
 
 Deploy on Heroku
 ------
-App: 		      https://webuml-ui.example.org
-Config: 	    /Procfile
-Properties: 	application-heroku.properties
+
+    App: 		    https://webuml-ui.example.org
+    Config: 	    /Procfile
+    Properties: 	application-heroku.properties
 
 
 3rd Party Libraries
 ------
-External Javascript libraries are managed via (Bower)[http://bower.io].
+External Javascript libraries are managed via [Bower](http://bower.io).
 
 You only need to have a global installation of Bower,
 when you want to update libraries (jquery, fabric, etc.).
