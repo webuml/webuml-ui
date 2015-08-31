@@ -1,0 +1,18 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "src/main/ts/global_typings",
+  "bundle": "src/main/ts/global_typings/tsd.d.ts",
+  "installed": {
+    "fabricjs/fabricjs.d.ts": {
+      "commit": "3c26df13c42c5a7c585237f390d787ffc7d61bfc"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "3c26df13c42c5a7c585237f390d787ffc7d61bfc"
+    },
+    "underscore/underscore.d.ts": {
+      "commit": "3c26df13c42c5a7c585237f390d787ffc7d61bfc"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Webuml</title>
+  <link rel="stylesheet" href="/css/webuml.css"/>
+  <script type="application/javascript" src="/lib/components/jquery/dist/jquery.min.js"></script>
+  <script type="application/javascript" src="/lib/components/fabric/dist/fabric.min.js"></script>
+  <script type="application/javascript" src="/lib/components/underscore/underscore.min.js"></script>
+  <script type="application/javascript" src="/lib/components/keymaster/keymaster.min.js"></script>
+  <script type="application/javascript" src="/profile.js"></script>
+  <script>
+    // var TogetherJSConfig_siteName = "https://webuml-ui-4444-superhot-8888.herokuapp.com/";
+    var TogetherJSConfig_toolName = "WebUml";
+    var TogetherJSConfig_dontShowClicks = true;
+    var TogetherJSConfig_cloneClicks = false;
+    var TogetherJSConfig_enableShortcut = false;
+    var TogetherJSConfig_useMinimizedCode = true;
+    var TogetherJSConfig_autoStart = false;
+    var TogetherJSConfig_suppressJoinConfirmation = true;
+    var TogetherJSConfig_suppressInvite = true;
+  </script>
+  <script type="application/javascript" src="https://togetherjs.com/togetherjs-min.js"></script>
+  <script type="application/javascript" src="/webuml-ui.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+</head>
+<body>
+
+<img alt="image loader mechanism" id="icon_class-016.png" src="/img/icon_class-016.png" style="visibility: hidden; position: fixed">
+<img alt="image loader mechanism" id="icon_class-020.png" src="/img/icon_class-020.png" style="visibility: hidden; position: fixed">
+<img alt="image loader mechanism" id="icon_class-032.png" src="/img/icon_class-032.png" style="visibility: hidden; position: fixed">
+
+<canvas id="webuml-main-view-canvas"></canvas>
+
+<div class="ajax-loading-animation initial-hidden">
+  <img src="/img/ajax-spinner.gif" alt="loading data..." title="loading data..."/>
+</div>
+
+<button id="start-togetherjs" class="share" type="button">
+  <img src="/img/share24.png" alt="share ..." title="Share"/>
+</button>
+
+<script type="application/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-48819454-4', 'webuml.com');ga('send', 'pageview');
+</script>
+
+<script type="application/javascript">
+  (function(){
+    $("#start-togetherjs").click(function(event){
+      TogetherJS(window); // start / stop
+      return false;
+    });
+  })();
+</script>
+
+</body>
+</html>
