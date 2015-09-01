@@ -1,4 +1,4 @@
-/// <reference path="../global_typings/keymaster.d" />
+/// <reference path="../global_typings/keymaster/keymaster.d.ts" />
 
 export = KeyMapping;
 

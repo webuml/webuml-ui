@@ -25,7 +25,7 @@ module.exports = function (grunt) {
             options: {
               module: 'amd',
               target: 'es5',
-              basePath: 'src/main/ts/',
+              rootDir: 'src/main/ts/',
               sourceMap: false,
               declaration: false
             }

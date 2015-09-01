@@ -1,7 +1,7 @@
 {
   "name": "webuml-ui",
   "version": "0.0.0",
-  "homepage": "https://webuml-ui-4444-superhot-8888.herokuapp.com",
+  "homepage": "https://webuml-ui.example.org",
   "authors": [
     "nitram509 <maki@bitkings.de>"
   ],
@@ -21,9 +21,9 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "fabric": "~1.4.10",
+    "fabric": "~1.4.13",
     "underscore": "~1.6.0",
     "almond": "~0.2.9",
-    "keymaster": "~1.6.2"
+    "keymaster": "~1.6.3"
   }
 }
