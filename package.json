@@ -16,7 +16,7 @@
     "grunt-contrib-cssmin": "^0.9.0",
     "grunt-typescript": "~0.7.0",
     "grunt-closurecompiler": "~0.9.9",
-    "closurecompiler": "~1.5.2",
+    "closurecompiler": "~1.6.1",
     "typescript": "~1.5.3",
     "express": "~4.13.3",
     "logfmt": "~1.1.2",
@@ -24,7 +24,7 @@
     "minimist": "^0.1.0"
   },
   "engines": {
-    "node": "0.10.x",
+    "node": "6.11.x",
     "npm": "1.4.x"
   },
   "scripts": {
