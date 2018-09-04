@@ -37,7 +37,7 @@
     "tag": "v1.4.13",
     "commit": "b8bf3f5077c931011b319914574cbfc7007a1b1d"
   },
-  "_source": "git://github.com/kangax/fabric.js.git",
-  "_target": "~1.4.10",
+  "_source": "https://github.com/kangax/fabric.js.git",
+  "_target": "~1.4.13",
   "_originalSource": "fabric"
 }

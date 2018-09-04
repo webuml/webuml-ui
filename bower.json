@@ -20,9 +20,9 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.1",
+    "jquery": "~2.1.4",
     "fabric": "~1.4.13",
-    "underscore": "~1.6.0",
+    "underscore": "~1.9.1",
     "almond": "~0.2.9",
     "keymaster": "~1.6.3"
   }
