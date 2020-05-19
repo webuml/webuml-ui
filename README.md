@@ -3,6 +3,13 @@ webuml-ui
 
 The HTML5 based browser UI to webuml.
 
+Status
+--------------
+
+ON HOLD.
+The libraries used in this project are known to contain security issues.
+Whenever one forks this project, consider to upgrade all libraries before deploying somewhere.
+
 Minimum preconditions:
 ---------------
 
